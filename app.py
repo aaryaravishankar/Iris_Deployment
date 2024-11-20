@@ -8,7 +8,7 @@ def predict(data):
     return clf.predict(data)
 
 # Function to map classes to images
-def class_to_image(class_name):
+def class_to_image(class_name): 
     if class_name == "setosa":
         return "images/setosa.jpg"  # Replace with the actual path to your setosa image
     elif class_name == "versicolor":
